@@ -23,7 +23,7 @@ A server repository for SuperDM task management system. This project is bootstra
 
 ```bash
 git clone [repository-url]
-cd superdm-task-server
+cd superdm-server
 ```
 
 ### 2. Install Dependencies
