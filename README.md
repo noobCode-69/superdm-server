@@ -8,6 +8,7 @@ A server repository for SuperDM task management system. This project is bootstra
 - Docker
 - Make (for running convenience scripts)
 - npm
+- Cloud - Heroku , NeonDB
 
 ## Tech Stack
 
