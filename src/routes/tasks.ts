@@ -7,8 +7,6 @@ import db from '../db';
 const tasksRouter = Router();
 const ITEMS_PER_PAGE = 15;
 
-const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
-
 
 tasksRouter.get("/status-count", async (req: Request, res: Response) => {
     try {
@@ -104,8 +102,6 @@ tasksRouter.post("/get", async (req: Request, res: Response) => {
         }
 
         const [{ count }] = await countQuery;
-
-        await wait(1000);
 
         res.status(200).json({
             success: true,
